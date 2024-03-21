@@ -1,0 +1,44 @@
+{
+  "name": "voluptatenon",
+  "description": "Apply Ramer-Douglas-Peucker line simplification to GeoJSON features or feature collections in JS or on the CLI",
+  "version": "1.0.0",
+  "author": "LilianaToy",
+  "bin": {
+    "simplify-geojson": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/LiaFlatley/voluptatenon.git/issues"
+  },
+  "dependencies": {
+    "concat-stream": "~1.4.1",
+    "minimist": "0.0.7",
+    "simplify-geometry": "0.0.2"
+  },
+  "devDependencies": {
+    "standard": "^8.3.0",
+    "tape": "^4.4.0"
+  },
+  "homepage": "https://github.com/LiaFlatley/voluptatenon.git",
+  "keywords": [
+    "Ramer-Douglas-Peucker",
+    "consequatur",
+    "voluptatem",
+    "geojson",
+    "line",
+    "voluptas",
+    "ut",
+    "multipolygon",
+    "polygon",
+    "simplification",
+    "quia"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiaFlatley/voluptatenon.git"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  }
+}
